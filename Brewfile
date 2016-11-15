@@ -1,6 +1,8 @@
 
 # tap repositories and their packages
 
+tap caskroom/cask
+
 tap homebrew/core
 brew aws-elasticbeanstalk
 brew awscli
@@ -17,6 +19,7 @@ brew libpng
 brew libtiff
 brew libtool
 brew libxml2
+brew mas
 brew mcrypt
 brew mhash
 brew mysql
@@ -28,7 +31,6 @@ brew readline
 brew unixodbc
 brew xz
 brew zsh
-brew mas
 
 tap homebrew/dupes
 
@@ -44,8 +46,6 @@ tap homebrew/versions
 
 tap rcmdnk/file
 brew brew-file
-
-tap caskroom/cask
 
 # App Store applications
 appstore 682658836 GarageBand (10.1.3)
